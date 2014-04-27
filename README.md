@@ -1,6 +1,12 @@
 docker-elasticsearch
 ====================
 
+This repository is forked from the `orchardup/docker-elasticsearch` repo and is mostly the same.
+
+The only changes are:
+    - The `Dockerfile` no longer sets up a volume for persistent data
+    - ElasticSearch is bumped to 1.1
+
 ElasicSearch for Docker.
 
     $ docker run -d -p 9200:9200 orchardup/elasticsearch
